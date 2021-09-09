@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color palette designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="selectColor">
+            <p>Select color:</p>
+            <input id="color_input" type="color">
+        </div>
+        <select name="harmonies" id="harmonies">
+            <option value="analogus">Analogus</option> 
+            <option value="monochromatic">Monochromatic</option> 
+            <option value="triad">Triad</option> 
+            <option value="complementary">Complementary</option> 
+            <option value="compund">Compund</option> 
+            <option value="shades">Shades</option> 
+        </select>
+
+        <div id="colors">
+            <div id="first_color">
+                <div id="colorBox1"></div>
+                <p id="hex1">HEX:</p>
+                <p id="rgb1">RGB:</p>
+                <p id="hsl1">HSL:</p>
+            </div>
+            <div id="second_color">
+                <div id="colorBox2"></div>
+                <p id="hex2">HEX:</p>
+                <p id="rgb2">RGB:</p>
+                <p id="hsl2">HSL:</p>
+            </div>
+            <div id="third_color">
+                <div id="colorBox3"></div>
+                <p id="hex3">HEX:</p>
+                <p id="rgb3">RGB:</p>
+                <p id="hsl3">HSL:</p>
+            </div>
+            <div id="fourth_color">
+                <div id="colorBox4"></div>
+                <p id="hex4">HEX:</p>
+                <p id="rgb4">RGB:</p>
+                <p id="hsl4">HSL:</p>
+            </div>
+            <div id="fifth_color">
+                <div id="colorBox5"></div>
+                <p id="hex5">HEX:</p>
+                <p id="rgb5">RGB:</p>
+                <p id="hsl5">HSL:</p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

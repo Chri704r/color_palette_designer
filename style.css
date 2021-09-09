@@ -1,0 +1,24 @@
+#selectColor {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
+}
+
+#colors {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+#colorBox1,
+#colorBox2,
+#colorBox3,
+#colorBox4,
+#colorBox5 {
+	border: 1px solid rgb(190, 190, 190);
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
